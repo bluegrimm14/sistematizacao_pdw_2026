@@ -14,7 +14,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #0056b3;
+    background-color: #1BEA29;
     color: white;
     padding: 2rem 5%;
     display: flex;
@@ -123,3 +123,33 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+/* --- ATUALIZAÇÃO DE CORES --- */
+
+body {
+    background-color: #f0fdf4; /* Um fundo verde clarinho quase branco */
+    color: #1b4332; /* Texto em verde bem escuro para melhor leitura */
+}
+
+header {
+    background-color: #1b4332; /* Verde escuro profissional */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2d6a4f; /* Títulos em um verde mais vivo, mas não saturado */
+}
+
+.servico-item, .membro {
+    border-top: 4px solid #40916c; /* Detalhe no topo do card */
+}
+
+form button {
+    background-color: #2d6a4f; /* Cor principal do botão */
+}
+
+form button:hover {
+    background-color: #1b4332; /* Escurece ao passar o mouse */
+}
+
+/* ----------------------------- */
