@@ -33,15 +33,26 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(243, 242, 242);
     text-decoration: none;
     font-weight: bold;
+    border-radius: 3px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(243, 242, 242);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(40, 87, 40);
 }
 
 /* Seções Gerais */
 section {
     padding: 60px 10%;
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 h2 {
@@ -64,6 +75,11 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     max-width: 300px;
+    transition: all 0.3s ease;
+}
+
+.servico-item:hover, .membro:hover {
+    max-width: 310px;
 }
 
 .servico-item img{
