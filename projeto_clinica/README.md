@@ -11,7 +11,7 @@ Landing Pages são páginas estáticas feitas com HTML e CSS que visam a apresen
 
 2. Em sua IDE favorita, acesse o seu terminal e navegue para a pasta onde queira clonar o repositório:
     ```bash
-    cd c:/Users/DDesktop/Clinica/
+    cd c:/Users/Desktop/Clinica/
     ```
 3. Na pasta escolhida, clone o repositório através do seguinte comando:
     ```bash
