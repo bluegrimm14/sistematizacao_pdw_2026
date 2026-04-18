@@ -37,10 +37,16 @@ header h1 a {
     color: rgb(243, 242, 242);
 }
 
+header h1 i:hover {
+    text-decoration: none;
+    color: #678378;
+}
+
 i {
     font-size: 50px;
     color: rgb(255, 255, 255);
     margin-right: 10px;
+    transition: all 0.3s ease;
 }
 
 nav ul {
@@ -58,6 +64,8 @@ nav ul li a {
     font-weight: bold;
     border-radius: 3px;
     padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     transition: all 0.3s ease;
 }
 
@@ -65,7 +73,7 @@ nav ul li a:hover {
     color: rgb(243, 242, 242);
     text-decoration: none;
     font-weight: bold;
-    background-color: rgb(40, 87, 40);
+    background-color: #225842
 }
 
 /* Seções Gerais */
